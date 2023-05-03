@@ -1,0 +1,3 @@
+CREATE TABLE DataF(Empid varchar2(3),Ename varchar2(25) Not NULL,DOB DATE NOT NULL,DOJ DATE Not NULL,Salary NUMBER(7) Not NULL,Adhar number(12) UNIQUE, CONSTRAINT empid_pk PRIMARY KEY (Empid));
+
+Select * from DataF
